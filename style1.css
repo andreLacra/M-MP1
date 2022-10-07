@@ -28,6 +28,11 @@ body{
     color: #D3D3D3 !important;
  }
 
+.imageSliderContainer{
+    text-align: center;
+    margin: auto;
+}
+
  /* intro */
 .introContainer{
     min-height: 100%;
