@@ -1,0 +1,248 @@
+body{
+    color: white;
+    height: 100%;
+    /* margin: 0; */
+    background: url(../SoftDesLab-Prelims/images/blue-abstract1.jpg) no-repeat;
+    background-size: cover;
+    /* background: #03045e !important; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* home */
+#cpeLogo{
+    height: 40px;
+}
+#cpeLogo:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+.navbar{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: black;
+    padding: 80px;
+ }
+.navbar a{
+    margin-right: 20px;
+ }
+.navbar a:hover{
+    color: #D3D3D3 !important;
+ }
+
+ /* intro */
+.introContainer{
+    min-height: 100%;
+    margin: auto;
+    padding: 70px;
+    text-align: center;
+}
+
+#introGraphic{
+    height: 270px;
+}
+
+#computerEngineering{
+    /* color: white; */
+    font-weight: bold;
+    font-size: 45px;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#introCaption{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: 450px;
+    font-size: 20px;
+}
+
+#btnExplore{
+    border: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+}
+#btnExplore:hover{
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 15px 48px 0 rgba(0,0,0,0.19);
+}
+
+#btnExplore:active{
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+/* what is comp & specializations*/
+.containerBlue{
+    /* background-color: #03045e; */
+    padding: 50px;
+}
+
+.containerGrid{
+    padding: 30px;
+}
+
+
+#whatIscomputerEngineering{
+    /* color: white; */
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+#cpeInfoTxt{
+    /* color: white; */
+    text-align: start;
+}
+
+.bi{
+    /* color: white; */
+    height: 40px !important;
+    width: 40px !important;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    border-bottom: 1px solid black !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    width: 250px;
+}
+
+/* career opportunities */
+.conatinerCarreerOpps{
+    padding: 50px;
+    background-color: white;
+}
+
+#careerOpportunitiesTitle{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background: -webkit-linear-gradient(300deg, black 5%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#careerOppsDescription{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-weight: 450px;
+}
+
+.careersGrid{
+    padding: 50px;
+}
+
+/* program education objectives  */
+.programEducObjectOutcomeContainer{
+    padding: 50px;
+}
+
+#progEdObAndProgOut{
+    font-weight: bold;
+    font-size: 30px; 
+    /* width: 80%; */
+}
+
+.progEducObjList{
+    width: 90%;
+}
+
+/* characteristiccs cpe */
+.cpeCharacteristics{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#cpeCharacteristicsTitle{
+    background: -webkit-linear-gradient(300deg, black 2%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.cpeCharacteristicsGrid{
+    padding: 50px;
+}
+
+#characteristicsTitle{
+    padding: 10px;
+    background: -webkit-linear-gradient(300deg, black 0.5%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* about */
+.aboutContainer{
+    background-color: #F2F3F4;
+    padding: 30px;
+    text-align: start;
+}
+
+#aboutProject{
+    width: 120px;
+}
+.bi-facebook{
+    height: 30px !important;
+}
+
+#txtCopyright{
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+/* html2 */
+/* developers */
+.developerIntroContainer{
+    text-align: center;
+    padding: 50px;
+}
+
+.bi-chevron-double-down{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.bi-chevron-double-down:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bi-chevron-double-down:active{
+    opacity: 0.8;
+}
+
+.developersInformationContainer{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+}
+
+#profileImg{
+    height: 200px;
+    border-radius: 100px;
+}
+
+.infoCard{
+    padding: 20px;
+}
+
+#info1{
+    color: grey;
+}
+
+#socMed{
+    height: 40px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
