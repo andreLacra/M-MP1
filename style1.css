@@ -2,7 +2,7 @@ body{
     color: white;
     height: 100%;
     /* margin: 0; */
-    background: url(./images/blue-abstract1.jpg) no-repeat;
+    background: url(images/blue-abstract1.jpg) no-repeat;
     background-size: cover;
     /* background: #03045e !important; */
     font-family: 'Poppins', sans-serif;
